@@ -1,0 +1,26 @@
+.App {
+  width: 100%;
+  height: 700px;
+  padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .App {
+    width: 40%;
+    height:auto;
+    margin-left: 10px;
+    
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    height: 500px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .App {
+    height: 300px; 
+  }
+}
